@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+  <title>169151 Blog</title>
+  <meta name='description' content=''>
+  <meta name='author' content='e87042170'>
+  <meta name='viewport' content='width=device-width; initial-scale=1.0'>  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ </head>
+ <body>     
+ <div class="hanoi">
+    <div class="content">
+     <span class="span1">A</span>
+     <br />
+     <div class="column"> </div>
+     <div id="div_d1" ondragover="onDragOver1(event)" ondrop="onDrop1(event)" >
+     </div>
+    </div>
+    <div class="content">
+     <span class="span1">B</span>
+     <br />
+     <div class="column"> </div>
+     <div id="div_d2" ondragover="onDragOver1(event)" ondrop="onDrop1(event)" >
+
+     </div>
+    </div>
+    <div class="content">
+     <span class="span1">C</span>
+     <br />
+     <div class="column"> </div>
+     <div id="div_d3" ondragover="onDragOver1(event)" ondrop="onDrop1(event)" >
+     </div>
+    </div>
+   </div>
+   <div class="selection">
+    挑戰 : <select id="ss">
+     <option value="1"> XD 1階 </option>
+     <option value="2"> 練習 2階 </option>
+     <option value="3" selected="selected"> 初學者 3階 </option>
+     <option value="4"> 入門級 4階 </option>
+     <option value="5"> 進階級 5階 </option>
+     <option value="6"> 殺手級 6階 </option>
+     <option value="7"> 神人級 7階 </option>
+    </select>
+    <input id="start" type="button" value="挑戰開始" onclick="start1()"/>
+    <input id="ans" type="button" value="最佳解答" onclick="getresult()"/>
+    <input id="autoplay" type="button" value="自動解答" onclick="autoplay()"/>
+    <p id="result">
+     試著從A柱拖拉金盤到其他柱上，並服從上述規則，以完成河內塔。<br>
+     試著挑戰其他等級，並點挑戰開始。如果無法完成，請點最佳解答。<br>     
+    </p>
+<link rel='stylesheet' href='../css/hanoi.css' type='text/css' />
+<script src='../js/hanoi.js'></script></div></div>
+ </body>
+</html>
