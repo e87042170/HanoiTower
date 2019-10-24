@@ -84,4 +84,5 @@
     height: 200px;
     background: #f8f8f8;
     margin:auto;
+    max-width:640px;
 }
