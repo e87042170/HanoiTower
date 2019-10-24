@@ -1,0 +1,87 @@
+.hanoi{
+    text-align: center;
+    /*padding: 40px;*/
+    margin: 20px;
+}
+.span1{
+    padding:5px 10px;
+    color: white;
+    background: #008282;
+    display:inline-block;       
+}
+.content{
+    display:inline-block;
+    text-align: left;
+    width: 200px;
+    height: 200px;
+    border-bottom: 8px solid #008282;
+    padding: 0px;
+    position: relative;
+    background: #ffffff;
+}
+.selection{
+    padding: 0px;
+    text-align: center;
+}
+
+.column{
+    background: gray;
+    height: 80%;
+    width: 20px;
+    position: absolute;
+    float: left;
+    left: calc(50% - 10px);
+    bottom: 0;
+}
+#div_d2,#div_d3,#div_d1{
+    width: 160px;
+    height: 200px;
+    padding: 0px;
+    margin:auto 20px;
+    position: absolute;
+    /*border:1px solid gray;*/
+    transform: rotate(180deg);
+    bottom: 0;
+}
+#disk1,#disk2,#disk3,#disk4,#disk5,#disk6,#disk7{
+    display:block;
+    border: 1px solid #222222;
+    height:20px;
+    margin: 0px auto;
+    color: #ffff66;
+    background: #ffff66;
+    border-radius: 5px;
+}
+#disk1{
+    width: 30%;
+    top:35%;                
+}
+#disk2{
+    width: 40%;
+    top:30%;                            
+}
+#disk3{
+    width: 50%;
+    top:25%;                
+}
+#disk4{
+    width: 60%;
+    top:20%;                
+}
+#disk5{
+    width: 70%;
+    top:15%;                
+}
+#disk6{
+    width: 80%;
+    top:10%;                
+}
+#disk7{
+    width: 90%;
+    top:5%;             
+}
+#result{
+    overflow-y: scroll;
+    height: 200px;
+    background: #FFFFFF;
+}
