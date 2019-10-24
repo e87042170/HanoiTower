@@ -112,6 +112,7 @@ function getresult(){
 }
 var count=1;
 function ans1(n,a,b,c){
+	count=1;
 	if(n==1){
 		result.innerHTML+="step"+(count++)+". 盤 "+n+" 從 "+a+" 到 "+c+".<br>";
 	}else{
